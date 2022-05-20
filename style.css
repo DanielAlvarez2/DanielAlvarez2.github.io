@@ -7,7 +7,7 @@ body{
     position: relative;
 }
 #street{
-    width: 100vw;
+    width: 700px;
     height: 40px;
     background: black;
 }
