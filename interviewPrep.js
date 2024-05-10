@@ -23,5 +23,17 @@ let quiz =
     `,
     a:`$ npm init -y`
     },
-                
+
+    {
+    q:`what is the syntax to start at the top of the page?
+       <input type="text" 
+       style="margin-top:15vh;text-align:center;">
+      `,
+       a:`window.onunload = ()=>window.scrollTo(0,0)`
+    }
+        
 ]
+
+
+
+
