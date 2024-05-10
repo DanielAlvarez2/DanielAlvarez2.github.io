@@ -26,10 +26,12 @@ let quiz =
 
     {
     q:`what is the syntax to start at the top of the page?
+    <div style="margin-top:15vh;width:100%;text-align:center;"> 
        <input type="text" 
-       style="margin-top:15vh;text-align:center;">
+       style="margin-top:15vh;text-align:center;width:150px;">
+    </div>
       `,
-       a:`window.onunload = ()=>window.scrollTo(0,0)`
+       a:`onunload = scrollTo(0,0)`
     }
         
 ]
