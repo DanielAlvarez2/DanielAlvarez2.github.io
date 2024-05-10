@@ -2,26 +2,26 @@ let quiz =
 [
     {
     q:`what is the HTML syntax to connect a css file?
-    <br><br><br><br><br><br><br><br><br><br>
-       <input type="text" align="middle">
+       <input type="text" 
+       style="margin-top:15vh;text-align:center;">
     `,
     a:`&lt;link rel="stylesheet" href="style.css">`
     },
 
     {
-    q:`what is the HTML syntax to connect a css file?
-    <br><br><br><br><br><br><br><br><br><br>
-       <input type="text" align="middle">
+    q:`what does N.P.M. stand for?
         `,
-    a:`&lt;link rel="stylesheet" href="style.css">`
+    a:`Node Package Manager`
     },
 
     {
-    q:`what is the HTML syntax to connect a css file?
-    <br><br><br><br><br><br><br><br><br><br>
-       <input type="text" align="middle">
+    q:`how do you start a node project?<br>
+    <div style="margin-top:15vh;width:100%;text-align:center;">$ 
+        <input type="text"
+        style="text-align:left;width:80px;">
+    </div>
     `,
-    a:`&lt;link rel="stylesheet" href="style.css">`
+    a:`$ npm init -y`
     },
                 
 ]
