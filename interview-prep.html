@@ -22,7 +22,7 @@
     <div id="a"></div>
     <script src="interviewPrep.js"></script>
     <script>
-        onunload = scrollTo(0,0)
+        window.onunload = window.scrollTo(0,0)
         console.log(quiz.length)
         let index=Math.floor(Math.random()*quiz.length)
         console.log(index)
