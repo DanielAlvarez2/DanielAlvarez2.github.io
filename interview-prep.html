@@ -10,14 +10,24 @@
             height:100svh;
             width:100%;
             border: 1px solid red;
+            display: grid;
+            place-content: center;
+        }
+        input{
+            text-align: center;
         }
     </style>
 </head>
 <body>
     <div id="q"></div>
     <div id="a"></div>
+    <script src="interviewPrep.js"></script>
     <script>
-
+        console.log(quiz.length)
+        let index=Math.floor(Math.random()*quiz.length)
+        console.log(index)
+        document.querySelector('#q').innerHTML=quiz[index].q
+        document.querySelector('#a').innerHTML=quiz[index].a
     </script>
 </body>
 </html>
