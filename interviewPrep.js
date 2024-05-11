@@ -32,7 +32,14 @@ let quiz =
     </div>
       `,
        a:`window.onunload = window.scrollTo(0,0)`
+    },
+
+    {
+        q:`what is git?`,
+
+        a:`a version control system`
     }
+    
         
 ]
 
