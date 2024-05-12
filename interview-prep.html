@@ -13,8 +13,10 @@
             border: 1px solid red;
             display: grid;
             place-content: center;
+            
         }
         #btn{
+            position: absolute;
             font-family: sans-serif;
             border:1px solid black;
             width: 200px;
@@ -28,8 +30,9 @@
 </head>
 <body>
     <div id="q"></div>
-    <div id="a"></div>
-    <div id="btn">NEXT</div>
+    <div id="a">
+        <div id="btn">NEXT</div>
+    </div>
     <script src="interviewPrep.js"></script>
     <script>
         window.onunload = ()=>window.scrollTo(0,0)
