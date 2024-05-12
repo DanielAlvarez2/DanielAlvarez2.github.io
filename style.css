@@ -5,7 +5,8 @@
 }
 
 @media (min-width:700px){
-    body{
+    body,input{
         font-size: 3rem;
     }
+
 }
