@@ -4,9 +4,17 @@
     padding: 0;
 }
 
+btn{
+    padding: 1em 2em;
+
+}
+
 @media (min-width:700px){
     body,input{
         font-size: 3rem;
     }
+    btn{
+        padding: 0.5em 1em;
 
+    }
 }
