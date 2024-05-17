@@ -18,7 +18,7 @@ let quiz =
     q:`how do you start a node project?<br>
     <div style="margin-top:15vh;width:100%;text-align:center;">$ 
         <input type="text"
-        style="text-align:left;width:80px;">
+        style="text-align:left;width:9ch;">
     </div>
     `,
     a:`$ npm init -y`
