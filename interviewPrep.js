@@ -54,9 +54,8 @@ let quiz =
     {
         q:`what is the syntax to center a div with grid?
         <div style="margin-top:15vh;width:100%;text-align:center;"> 
-       <input type="text" 
-       style="margin-top:15vh;text-align:center;width:250px;">
-    </div>
+            <textarea rows="2" cols="22"></textarea>
+        </div>
         `,
 
         a:`display: grid;<br>

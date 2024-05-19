@@ -8,12 +8,12 @@
     padding: 1em 2em;
 
 }
-input{
+input,textarea{
     padding-left: 2px;
 }
 
 @media (min-width:700px){
-    body,input{
+    body,input,textarea{
         font-size: 3rem;
     }
     #btn{
