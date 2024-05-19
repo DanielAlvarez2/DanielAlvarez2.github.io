@@ -44,7 +44,9 @@ let quiz =
         q:`what is the syntax for media queries?
         <div style="margin-top:15vh;width:100%;text-align:center;"> 
        <input type="text" 
-       style="margin-top:15vh;text-align:center;width:250px;">
+       style="margin-top:15vh;
+       text-align:center;
+       width:25ch;">
     </div>
         `,
 
