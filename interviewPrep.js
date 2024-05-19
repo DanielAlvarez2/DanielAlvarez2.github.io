@@ -5,7 +5,7 @@ let quiz =
        <input type="text" 
        style="margin-top:15vh;text-align:center;">
     `,
-    a:`&lt;link rel="stylesheet" href="style.css">`
+    a:`&lt;link rel="stylesheet" href="styles.css">`
     },
 
     {
