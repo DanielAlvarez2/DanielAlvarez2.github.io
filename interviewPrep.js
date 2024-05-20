@@ -62,6 +62,12 @@ let quiz =
 
         a:`display: grid;<br>
            place-content: center;`
+    },
+
+    {
+        q:`what are the 2 categories of data types?`,
+
+        a:`Primitives / Reference`
     }
     
         
