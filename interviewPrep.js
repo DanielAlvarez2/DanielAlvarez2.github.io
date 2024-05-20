@@ -95,7 +95,21 @@ let quiz =
             "" (empty string)<br><br>
        
         `
+    },
+
+    {
+        q:`what is the syntax for an IIFE?
+        
+           <div style="width:100%;
+                       text-align:center;
+                       margin-top:15vh;">
+                <input style="width:12ch">
+           </div>
+        `,
+
+        a:`(function(){})()`
     }
+
     
     
         
