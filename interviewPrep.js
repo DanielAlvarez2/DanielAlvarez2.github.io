@@ -68,6 +68,20 @@ let quiz =
         q:`what are the 2 categories of data types?`,
 
         a:`Primitives / Reference`
+    },
+
+    {
+        q:`what are the 7 primitive data types?`,
+
+        a:` String<br><br>
+            Number<br><br>
+            Boolean<br><br>
+            Null<br><br>
+            Undefined<br><br>
+            BigInt<br><br>
+            Symbol<br><br>
+        
+        `
     }
     
         
