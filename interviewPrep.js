@@ -82,7 +82,21 @@ let quiz =
             Symbol<br><br>
         
         `
+    },
+
+    {
+        q:`what are the 6 falsy values?`,
+
+        a:` null<br><br>
+            undefined<br><br>
+            false<br><br>
+            NaN<br><br>
+            0<br><br>
+            "" (empty string)<br><br>
+       
+        `
     }
+    
     
         
 ]
