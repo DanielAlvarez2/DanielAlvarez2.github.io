@@ -108,6 +108,16 @@ let quiz =
         `,
 
         a:`(function(){})()`
+    },
+
+    {
+        q:`Explain the "this" keyword`,
+
+        a:`The "this" keyword refers to:<br>
+        the global object/window in standalone functions<br>
+        OR<br>
+        the associated object in method calls
+        `
     }
 
     
