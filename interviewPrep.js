@@ -118,6 +118,18 @@ let quiz =
         OR<br>
         the associated object in method calls
         `
+    },
+
+    {
+        q:`what is the UNIX Epoch?`,
+
+        a:`Jan 1 1970`
+    },
+
+    {
+        q:`what is Jan 1 1970?`,
+
+        a:`Unix Epoch`
     }
 
     
