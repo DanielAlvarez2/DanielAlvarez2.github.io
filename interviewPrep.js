@@ -142,6 +142,12 @@ let quiz =
         q:`if a function is called using the "new" keyword, "this" is:`,
 
         a:`a brand new object`
+    },
+
+    {
+        q:`if "call/apply/bind" are used to call a function, "this" will be:`,
+
+        a:`the object passed in as the argument`
     }
 
     
