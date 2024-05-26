@@ -160,6 +160,12 @@ let quiz =
         q:`if a function is called as a standalone function, "this" will be:`,
 
         a:`browser: window object<br><br>node: global object`
+    },
+
+    {
+        q:`what is "this" in an arrow function?`,
+
+        a:`"this" value of its surrounding scope at the time it is created(lexical scope???)`
     }
 
     
