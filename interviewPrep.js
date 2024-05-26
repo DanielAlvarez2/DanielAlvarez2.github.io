@@ -148,6 +148,12 @@ let quiz =
         q:`if "call/apply/bind" are used to call a function, "this" will be:`,
 
         a:`the object passed in as the argument`
+    },
+
+    {
+        q:`if a function is called as a method: obj.method() then "this" will be:`,
+
+        a:`obj (whatever is left of dot ".")`
     }
 
     
