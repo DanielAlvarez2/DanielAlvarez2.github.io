@@ -171,7 +171,7 @@ let quiz =
     {
         q:`in strict mode ('use strict') what is "this" for a standalone function call?`,
 
-        a:`undefiend`
+        a:`undefined`
     },
 
     {
