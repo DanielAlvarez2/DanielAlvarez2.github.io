@@ -166,6 +166,12 @@ let quiz =
         q:`what is "this" in an arrow function?`,
 
         a:`"this" value of its surrounding scope at the time it is created(lexical scope???)`
+    },
+
+    {
+        q:`in strict mode ('use strict') what is "this" for a standalone function call?`,
+
+        a:`undefiend`
     }
 
     
