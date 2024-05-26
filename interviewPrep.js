@@ -165,7 +165,7 @@ let quiz =
     {
         q:`what is "this" in an arrow function?`,
 
-        a:`"this" value of its surrounding scope at the time it is created(lexical scope???)`
+        a:`"this" value of its surrounding scope at the time it is created(enclosing lexical scope)`
     },
 
     {
