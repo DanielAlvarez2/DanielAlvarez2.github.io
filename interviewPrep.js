@@ -154,6 +154,12 @@ let quiz =
         q:`if a function is called as a method: obj.method() then "this" will be:`,
 
         a:`obj (whatever is left of dot ".")`
+    },
+
+    {
+        q:`if a function is called as a standalone function, "this" will be:`,
+
+        a:`browser: window object<br><br>node: global object`
     }
 
     
