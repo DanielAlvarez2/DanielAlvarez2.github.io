@@ -175,6 +175,12 @@ let quiz =
     },
 
     {
+        q:`does "call/apply/bind" affect "this" in arrow functions?`,
+
+        a:`no`
+    },
+
+    {
         q:`what is Javascript?`,
 
         a:`event-driven<br>
