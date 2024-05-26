@@ -172,6 +172,16 @@ let quiz =
         q:`in strict mode ('use strict') what is "this" for a standalone function call?`,
 
         a:`undefiend`
+    },
+
+    {
+        q:`what is Javascript?`,
+
+        a:`event-driven<br>
+           multi-paradigm<br>
+           dynamically-typed<br>
+           single-threaded
+           `
     }
 
     
