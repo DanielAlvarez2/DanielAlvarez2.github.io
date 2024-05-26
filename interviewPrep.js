@@ -136,6 +136,12 @@ let quiz =
         q:`what does A.P.I. stand for?`,
 
         a:`Application Programming Interface`
+    },
+
+    {
+        q:`if a function is called using the "new" keyword, "this" is:`,
+
+        a:`a brand new object`
     }
 
     
