@@ -188,6 +188,12 @@ let quiz =
            dynamically-typed<br>
            single-threaded
            `
+    },
+
+    {
+        q:`how do you access an object's prototype?`,
+
+        a:`obj.__proto__`
     }
 
     
