@@ -260,9 +260,21 @@ let quiz =
             replace "FIZZ BUZZ" at multiples of 3 AND 5`,
 
         a:`function fizzbuzz(){
-            
+
         }`
+    },
+
+    {
+        q:`explain Promises`,
+
+        a:`A promise is an object that MAY return a value in the future:<br>
+        either a resolved value, or a reason it was not resolved(network error)<br>
+        A promise can be in one of three states:<br>
+        - pending<br>
+        - fulfilled<br>
+        - rejected`
     }
+
 
 
     
