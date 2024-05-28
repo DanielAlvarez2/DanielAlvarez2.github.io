@@ -250,6 +250,18 @@ let quiz =
         a:`'use strict' enables strict mode for entire scripts or just indivdual functions<br><br>
         - prevents creation of GLOBAL variables
         - forces assignments that would silently fail will throw an error`
+    },
+
+    {
+        q:`FIZZ BUZZ<br><br>
+            create a function that counts from 1 to 100<br>
+            replace "FIZZ" at multiples of 3<br>
+            replace "BUZZ" at multiples of 5<br>
+            replace "FIZZ BUZZ" at multiples of 3 AND 5`,
+
+        a:`function fizzbuzz(){
+            
+        }`
     }
 
 
