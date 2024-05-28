@@ -242,6 +242,14 @@ let quiz =
         - the "then" expression<br>
         - the "else" expression
         `
+    },
+
+    {
+        q:`explain 'use strict'`,
+
+        a:`'use strict' enables strict mode for entire scripts or just indivdual functions<br><br>
+        - prevents creation of GLOBAL variables
+        - forces assignments that would silently fail will throw an error`
     }
 
 
