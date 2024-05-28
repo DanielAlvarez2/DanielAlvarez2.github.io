@@ -202,6 +202,14 @@ let quiz =
         a:`'undefined' is the default value when a variable is declared without being assigned a value.<br><br>
         
         'null' is when a variable has explicitly been assigned that value.`
+    },
+
+    {
+        q:`what is a closure?`,
+
+        a:`A closure is when 2 functions are nested 1 inside the other.<br>
+        The inner function still has access to the outer function's variables,<br>
+        even AFTER the outer function has returned.`
     }
 
 
