@@ -216,6 +216,12 @@ let quiz =
         q:`what is the main difference between a .forEach loop and .map()?`,
 
         a:`.map() returns a NEW array, while .forEach does not`
+    },
+
+    {
+        q:`what is a typical use case for anonymous functions?`,
+
+        a:`IIFEs, callback functions used only once`
     }
 
 
