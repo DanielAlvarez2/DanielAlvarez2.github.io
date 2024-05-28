@@ -229,6 +229,19 @@ let quiz =
 
         a:`== only checks equality of values<br>
         === also checks for equality of TYPES`
+    },
+
+    {
+        q:`why is it called a TERNARY expression?<br><br>
+        what does the word TERNARY imply?`,
+
+        a:`Unary, Binary, Ternary<br><br>1, 2, 3<br><br>
+        Ternary indicates 3<br><br>
+        A Ternary Expression accepts THREE operands:<br><br>
+        - the test condition<br>
+        - the "then" expression<br>
+        - the "else" expression
+        `
     }
 
 
