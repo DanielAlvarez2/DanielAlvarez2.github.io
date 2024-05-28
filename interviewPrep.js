@@ -222,6 +222,13 @@ let quiz =
         q:`what is a typical use case for anonymous functions?`,
 
         a:`IIFEs, callback functions used only once`
+    },
+
+    {
+        q:`what is the difference between == and === ?`,
+
+        a:`== only checks equality of values<br>
+        === also checks for equality of TYPES`
     }
 
 
