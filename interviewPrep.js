@@ -210,6 +210,12 @@ let quiz =
         a:`A closure is when 2 functions are nested 1 inside the other.<br>
         The inner function still has access to the outer function's variables,<br>
         even AFTER the outer function has returned.`
+    },
+
+    {
+        q:`what is the main difference between a .forEach loop and .map()?`,
+
+        a:`.map() returns a NEW array, while .forEach does not`
     }
 
 
