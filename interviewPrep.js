@@ -194,7 +194,16 @@ let quiz =
         q:`how do you access an object's prototype?`,
 
         a:`obj.__proto__`
+    },
+
+    {
+        q:`what is the difference between 'null' and 'undefined'?`,
+
+        a:`'undefined' is the default value when a variable is declared without being assigned a value.<br><br>
+        
+        'null' is when a variable has explicitly been assigned that value.`
     }
+
 
     
     
