@@ -257,7 +257,8 @@ let quiz =
             create a function that counts from 1 to 100<br>
             replace "FIZZ" at multiples of 3<br>
             replace "BUZZ" at multiples of 5<br>
-            replace "FIZZ BUZZ" at multiples of 3 AND 5`,
+            replace "FIZZ BUZZ" at multiples of 3 AND 5<br>
+            code on: jsbin.com`,
 
         a:`function fizzbuzz(){
 
