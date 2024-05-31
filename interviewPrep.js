@@ -360,6 +360,13 @@ let quiz =
         vs a function expression?`,
 
         a:`function declarations are HOISTED, while function expressions are not.`
+    },
+
+    {
+        q:`what is a higher-order function?`,
+
+        a:`HIGHER-ORDER FUNCTION:<br>
+        takes in a function as an argument and/or returns a function.`
     }
     
     
