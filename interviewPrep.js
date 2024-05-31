@@ -297,8 +297,22 @@ let quiz =
         a:`to avoid other developers accidentally using the same 
         variable names resulting in overwriting of variables.
         Using IIFEs resolves this.`
-    }
+    },
 
+    {
+        q:`which is a function DECLARATION?<br><br>
+        <div>
+        <input type='radio' id='one' name='declaration'>
+        <label for='one'>function x(){}</label>
+        </div><br>
+        <div>
+        <input type='radio' id='two' name='declaration'>
+        <label for='two'>const x = function(){}</label>
+        </div>`,
+    
+        a:`function DECLARATION<br><br>function x(){}`
+    }
+    
 
 
     

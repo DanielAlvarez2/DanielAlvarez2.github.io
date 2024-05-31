@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interview Prep</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <style>
+        body{
+            position: relative;
+        }
+        #q, #a{
+            height:100vh;
+            height:100svh;
+            width:100%;
+            /* border: 1px solid red; */
+            display: grid;
+            place-content: center;
+        }
+        #btn{
+            cursor:pointer;
+            background: #ccc;
+            position: absolute;
+            /* top:100vh;
+            top:100svh; */
+            right:5px;
+            bottom:5px;
+            font-family: sans-serif;
+            border:1px solid black;
+            border-radius: 20px;
+            display: grid;
+            place-content: center;
+            box-shadow: 2px 2px;
+        }
+       
+    </style>
+</head>
+<body>
+    <div id="q"></div>
+    <div id="a">
+    </div>
+    <div id="btn">NEXT</div>
+    <script src="test.js"></script>
+    <script>
+        window.onunload = ()=>window.scrollTo(0,0)
+        console.log(quiz.length)
+        let index=Math.floor(Math.random()*quiz.length)
+        console.log(index)
+        document.querySelector('#q').innerHTML=quiz[index].q
+        document.querySelector('#a').innerHTML=quiz[index].a
+        document.querySelector('#btn').addEventListener('click',()=>location.reload())
+    </script>
+</body>
+</html>
