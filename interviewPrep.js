@@ -289,6 +289,14 @@ let quiz =
         
         const duplicate = arr => [...arr,...arr]<br><br>
         duplicate([1,2,3])`
+    },
+
+    {
+        q:`why should variables NOT be declared globally?`,
+
+        a:`to avoid other developers accidentally using the same 
+        variable names resulting in overwriting of variables.
+        Using IIFEs resolves this.`
     }
 
 
