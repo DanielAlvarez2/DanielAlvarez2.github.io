@@ -274,6 +274,21 @@ let quiz =
         - pending<br>
         - fulfilled<br>
         - rejected`
+    },
+
+    {
+        q:`write a function 'duplicate' that does this:<br>
+        duplicate([1,2,3]) //[1,2,3]<br><br>
+        plain JavaScript:<br><textarea rows='4'></textarea><br><br>
+        ES6:<br><textarea></textarea>`,
+
+        a:`function duplicate(arr){<br>
+            &nbsp;&nbsp;return arr.concat(arr)<br>
+        }<br><br>
+        duplicate([1,2,3])<br><br><br>
+        
+        const duplicate = arr => [...arr,...arr]<br><br>
+        duplicate([1,2,3])`
     }
 
 
