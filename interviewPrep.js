@@ -353,7 +353,14 @@ let quiz =
         </div>`,
     
         a:`function EXPRESSION<br><br>const x = function(){}`
-    }    
+    },
+    
+    {
+        q:`what behaves differently between a function declaration 
+        vs a function expression?`,
+
+        a:`function declarations are HOISTED, while function expressions are not.`
+    }
     
     
     
