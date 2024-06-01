@@ -377,6 +377,13 @@ let quiz =
         - encapsulation<br><br>
         - inheritance<br><br>
         - polymorphism`
+    },
+
+    {
+        q:`OOP / explain abstraction`,
+
+        a:`hiding unneccesary details from the user, 
+        while displaying only neccesary information`
     }
     
     
