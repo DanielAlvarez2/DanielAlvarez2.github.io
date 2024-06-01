@@ -367,6 +367,16 @@ let quiz =
 
         a:`HIGHER-ORDER FUNCTION:<br>
         takes in a function as an argument and/or returns a function.`
+    },
+
+    {
+        q:`what are the 4 pillars of OOP?`,
+
+        a:`4 PILLARS OF OOP:<br><br>
+        - abstraction<br><br>
+        - encapsulation<br><br>
+        - inheritance<br><br>
+        - polymorphism`
     }
     
     
