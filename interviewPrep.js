@@ -382,8 +382,18 @@ let quiz =
     {
         q:`OOP / explain abstraction`,
 
-        a:`hiding unneccesary details from the user, 
+        a:`OOP / ABSTRACTION:<br><br>
+        hiding unneccesary details from the user, 
         while displaying only neccesary information`
+    },
+
+    {
+        q:`OOP / explain encapsulation`,
+
+        a:`OOP / ENCAPSULATION<br><br>
+        bundling both DATA together with<br>
+        the METHODS that operate on that data.
+        Hiding values or state preventing unauthorized access`
     }
     
     
