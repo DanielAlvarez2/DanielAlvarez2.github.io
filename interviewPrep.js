@@ -394,6 +394,15 @@ let quiz =
         bundling both DATA together with<br>
         the METHODS that operate on that data.
         Hiding values or state preventing unauthorized access`
+    },
+
+    {
+        q:`OOP / explain inheritance`,
+
+        a:`OOP / INHERITANCE:<br><br>
+        basing an object or class upon another object or class, 
+        retaining similar implementation<br><br>
+        ANIMAL --> dog & cat`
     }
     
     
