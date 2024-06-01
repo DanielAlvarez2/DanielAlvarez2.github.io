@@ -403,6 +403,17 @@ let quiz =
         basing an object or class upon another object or class, 
         retaining similar implementation<br><br>
         ANIMAL --> dog & cat`
+    },
+
+    {
+        q:`OOP / explain polymorphism`,
+
+        a:`OOP / POLYMORPHISM:<br><br>
+        "MANY" "FORMS"<br>
+        a function can behave differently based on the context 
+        in which it was invoked<br><br>
+        function add(1,2) //3<br><br>
+        function add(1,2,3) //6`
     }
     
     
