@@ -414,6 +414,19 @@ let quiz =
         in which it was invoked<br><br>
         function add(1,2) //3<br><br>
         function add(1,2,3) //6`
+    },
+
+    {
+        q:`how do you prevent random whitespace<br>
+           in &lt;textarea> field?`,
+
+        a:`in the html file:<br>
+           you must code the closing tag<br>
+           on the same line as the opening tag<br>
+           &lt;textarea>&lt;/textarea><br><br>
+           NOT<br><br>
+           &lt;textarea><br>
+           &lt;/textarea>`
     }
     
     
