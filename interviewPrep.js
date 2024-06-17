@@ -427,6 +427,11 @@ let quiz =
            NOT<br><br>
            &lt;textarea><br>
            &lt;/textarea>`
+    },
+
+    {
+        q:`explain ...spread vs ...rest operators`,
+        a:`???`
     }
     
     
