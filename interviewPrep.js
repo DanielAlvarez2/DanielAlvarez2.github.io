@@ -432,6 +432,12 @@ let quiz =
     {
         q:`explain ...spread vs ...rest operators`,
         a:`???`
+    },
+
+    {
+        q:`explain recursion`,
+        a:`RECURSION:<br>
+           a function that calls itself`
     }
     
     
