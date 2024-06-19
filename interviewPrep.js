@@ -438,6 +438,11 @@ let quiz =
         q:`explain recursion`,
         a:`RECURSION:<br>
            a function that calls itself`
+    },
+
+    {
+        q:`slice() vs splice<br>which modifies original array?`,
+        a:`splice()<br>modifies original array`
     }
     
     
