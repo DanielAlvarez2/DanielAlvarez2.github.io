@@ -475,6 +475,17 @@ let quiz =
         <input type=text>`,
         a:`arr.pop()<br><br>
         arr=[1,2,3]`
+    },
+
+    {
+        q:`arr=[0,1,2,3]<br><br>
+        remove 0 from the beginning of the array<br>
+        and store it in a variable called 'first'<br><br>
+        <input type='text'>`,
+        
+        a:`let first=arr.shift()<br><br>
+        arr=[1,2,3]<br>
+        first=0<br>`
     }
     
     
