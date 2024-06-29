@@ -459,6 +459,14 @@ let quiz =
            <input type='text'>`,
         a:`arr.shift()<br><br>
            arr=[1,2,3]`
+    },
+
+    {
+        q:`arr=[1,2,3]<br><br>
+        add 4 to the end of the array<br><br>
+        <input type=text>`,
+     a:`arr.push(4)<br><br>
+        arr=[1,2,3,4]`
     }
     
     
