@@ -465,8 +465,16 @@ let quiz =
         q:`arr=[1,2,3]<br><br>
         add 4 to the end of the array<br><br>
         <input type=text>`,
-     a:`arr.push(4)<br><br>
+        a:`arr.push(4)<br><br>
         arr=[1,2,3,4]`
+    },
+
+    {
+        q:`arr=[1,2,3,4]<br><br>
+        remove 4 from the end of the array<br><br>
+        <input type=text>`,
+        a:`arr.pop()<br><br>
+        arr=[1,2,3]`
     }
     
     
