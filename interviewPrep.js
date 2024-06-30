@@ -446,7 +446,7 @@ let quiz =
     },
 
     {
-        q:`arr=[1,2,3]<br><br>
+        q:`const arr=[1,2,3]<br><br>
            add 0 to the beginning of the array<br><br>
            <input type=text>`,
         a:`arr.unshift(0)<br><br>
@@ -454,7 +454,7 @@ let quiz =
     },
 
     {
-        q:`arr=[0,1,2,3]<br><br>
+        q:`const arr=[0,1,2,3]<br><br>
            remove 0 from the beginning of the array<br><br>
            <input type='text'>`,
         a:`arr.shift()<br><br>
@@ -462,7 +462,7 @@ let quiz =
     },
 
     {
-        q:`arr=[1,2,3]<br><br>
+        q:`const arr=[1,2,3]<br><br>
         add 4 to the end of the array<br><br>
         <input type=text>`,
         a:`arr.push(4)<br><br>
@@ -470,7 +470,7 @@ let quiz =
     },
 
     {
-        q:`arr=[1,2,3,4]<br><br>
+        q:`const arr=[1,2,3,4]<br><br>
         remove 4 from the end of the array<br><br>
         <input type=text>`,
         a:`arr.pop()<br><br>
@@ -478,15 +478,16 @@ let quiz =
     },
 
     {
-        q:`arr=[0,1,2,3]<br><br>
+        q:`const arr=[0,1,2,3]<br><br>
         remove 0 from the beginning of the array<br>
         and store it in a variable called 'first'<br><br>
         <input type='text'>`,
         
-        a:`let first=arr.shift()<br><br>
+        a:`const first=arr.shift()<br><br>
         arr=[1,2,3]<br>
         first=0<br>`
-    }
+    },
+
     
     
     
